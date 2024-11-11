@@ -1,0 +1,52 @@
+bin\
+obj\
+*.user
+*.rsuser
+*.suo
+*.userprefs
+*.pidb
+*.ide
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+wwwroot/
+
+.vscode/
+.vs/
+.vscode/*
+
+.idea/
+*.sln.iml
+.idea/*
+
+*.builds
+
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!packages/build/
+!packages/repositories.config
+
+# Конкретные для ASP.NET
+node_modules/
+jspm_packages/
+
+# Xamarin
+*.apk
+*.ap_
+*.dex
+*.keystore
+*.keys
+*.ptxml
+*.tlog
+
+# Secrets
+*.secret
+*.password
+*.pem
+*.key
+
+# Config files
+secrets.json
